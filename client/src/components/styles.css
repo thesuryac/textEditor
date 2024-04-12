@@ -1,0 +1,33 @@
+.white-cursor-line .monaco-editor .cursor {
+  background-color: transparent !important; /* Remove default cursor */
+  border-left: 1px solid white !important; /* Add white line */
+}
+
+.aqua-cursor-line .monaco-editor .cursor {
+  background-color: transparent !important; /* Remove default cursor */
+  border-left: 1px solid aqua !important; /* Add white line */
+}
+.red-cursor-line .monaco-editor .cursor {
+  background-color: transparent !important; /* Remove default cursor */
+  border-left: 1px solid red !important; /* Add white line */
+}
+.greenyellow-cursor-line .monaco-editor .cursor {
+  background-color: transparent !important; /* Remove default cursor */
+  border-left: 1px solid greenyellow !important; /* Add white line */
+}
+.indigo-cursor-line .monaco-editor .cursor {
+  background-color: transparent !important; /* Remove default cursor */
+  border-left: 4px solid rgb(150, 4, 255) !important; /* Add white line */
+}
+.username-label {
+  position: absolute;
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 2px;
+  /* display: none; Initially hide */
+}
+
+.username-label.active {
+  display: block; /* Show when cursor is active */
+}
